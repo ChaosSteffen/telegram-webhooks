@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+ - "2.3.0"
+services:
+ - redis-server
+script: bundle exec ruby test.rb
