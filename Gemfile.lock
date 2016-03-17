@@ -1,0 +1,39 @@
+GIT
+  remote: git://github.com/brandonweiss/rack-minitest.git
+  revision: ff8669c284e05c3cba8d14b867165c103283a167
+  specs:
+    rack-minitest (0.0.10)
+      json
+      minitest (~> 5.0)
+      rack-test
+
+PATH
+  remote: .
+  specs:
+    telegram-webhooks (0.0.1)
+      rack
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (1.8.3)
+    metaclass (0.0.4)
+    minitest (5.8.4)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  mocha
+  rack-minitest!
+  rack-test
+  telegram-webhooks!
+
+BUNDLED WITH
+   1.11.2
