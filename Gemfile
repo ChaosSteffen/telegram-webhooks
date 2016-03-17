@@ -8,4 +8,5 @@ group :test do
   gem 'rack-test'
   gem 'rack-minitest', git: 'git://github.com/brandonweiss/rack-minitest.git'
   gem 'mocha'
+  gem "codeclimate-test-reporter"
 end
