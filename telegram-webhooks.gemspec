@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Gem::Specification.new do |gem|
   gem.name          = 'telegram-webhooks'
   gem.version       = '0.0.1'
