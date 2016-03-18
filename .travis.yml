@@ -7,4 +7,4 @@ rvm:
 script: bundle exec ruby test.rb
 addons:
   code_climate:
-    repo_token: 397e2a8600b401cf8f8500f2a55cd3af51ebec3981eadcaa5e87fd63a9b01689
+    repo_token: 738d35d476721e6185c0e790e9beec4aafa542d4fbff76b57ca7513d84fe6631
