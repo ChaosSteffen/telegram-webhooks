@@ -10,8 +10,8 @@ GIT
 PATH
   remote: .
   specs:
-    telegram-webhooks (0.0.1)
-      rack (~> 1)
+    telegram-webhooks (0.1.1)
+      rack (~> 1.6.4)
 
 GEM
   remote: https://rubygems.org/

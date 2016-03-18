@@ -2,11 +2,11 @@
 require 'net/http'
 require 'json'
 
-require 'telegram/bot'
-require 'telegram/chat'
-require 'telegram/message'
-require 'telegram/update'
-require 'telegram/user'
+require_relative 'telegram/bot'
+require_relative 'telegram/chat'
+require_relative 'telegram/message'
+require_relative 'telegram/update'
+require_relative 'telegram/user'
 
 # Is a representation of Telegram API
 module Telegram
