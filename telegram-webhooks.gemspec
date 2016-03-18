@@ -10,6 +10,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/ChaosSteffen/telegram-webhooks'
   gem.license       = 'MIT'
 
+  gem.required_ruby_version = '>= 2.1.0'
+
   gem.files         = Dir['./lib/**/*.rb']
   gem.test_files    = gem.files.grep(%r{^test/})
   gem.require_paths = ['lib']
