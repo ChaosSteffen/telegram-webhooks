@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 Gem::Specification.new do |gem|
   gem.name          = 'telegram-webhooks'
-  gem.version       = '0.1.0'
-  gem.date          = '2016-03-16'
+  gem.version       = '0.1.1'
+  gem.date          = '2016-03-18'
   gem.summary       = 'A DSL-like interface for the Telegram messengers Bot API'
   gem.description   = 'This project gives you a nice DSL-like interface for the Telegram Bot API'
   gem.authors       = ['Steffen Schröder']
