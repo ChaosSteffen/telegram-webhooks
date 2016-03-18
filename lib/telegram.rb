@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+require 'net/http'
+require 'json'
 
 require 'telegram/bot'
 require 'telegram/chat'
